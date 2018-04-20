@@ -3,11 +3,9 @@ i = 0
 j = 0
 
 for num in numeros:
-	if num%2 == 0:
-		print ('este numero es par') 
+	if num%2 == 0: 
 		i += 1
-	if num%2 != 0:
-		print ('este numero es inpar') 
+	if num%2 != 0: 
 		j += 1
 print("Programa terminado")
 print("Total de num. pares " + str(i))
